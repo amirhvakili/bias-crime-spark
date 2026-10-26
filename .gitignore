@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# build output and editor files
+target/
+project/target/
+project/project/
+.bsp/
+.metals/
+.bloop/
+.vscode/
+*.log
+
+# data and backups (download the data yourself, see README)
+*.csv
+backup*.sql
+data/
