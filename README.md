@@ -47,3 +47,17 @@ Requirements: Docker, Java 17, sbt. Commands below are for PowerShell.
     $env:PG_PASSWORD = �your-password�
     sbt run
 6. Open Metabase at http://localhost:4000 and add a PostgreSQL database with host `postgres`, port `5432`, database `postgres`.
+
+## The 2016 to 2018 rise
+
+- Every major bias type grew, so it was not one category alone.
+- Within Ethnicity/National Origin (3 incidents in 2015, 49 in 2018), two groups drove most of the growth: Jewish (0 in 2016, 20 in 2017, 12 in 2018) and Latino/Hispanic (1, 7, 8 and 24 from 2015 to 2018). Together they make up 36 of the 49 incidents in 2018.
+- The two groups grew differently. The Jewish incidents start in June 2017, with 9 of the 20 in November. The Latino/Hispanic incidents in 2018 are spread across 10 months.
+- This data cannot say whether incidents increased or reporting and recording changed.
+
+## Limitations and next steps
+
+- These are reported incidents only, and about 48% of records have no targeted group.
+- Groups were counted within one bias type. The same group may also appear under other types; I did not check this.
+- Spark is more than 1,852 rows need. I used it to practice a scalable pipeline.
+- Next steps: count each group across all bias types, and add a Metabase dashboard with a screenshot.
